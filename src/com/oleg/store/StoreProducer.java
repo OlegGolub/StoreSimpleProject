@@ -11,6 +11,7 @@ public class StoreProducer implements Runnable{
     public void run(){
         for (int i = 1; i < 6; i++) {
             store.put();
+            System.out.println("Всего помещено товаров на склад: "+i);
         }
     }
 }
